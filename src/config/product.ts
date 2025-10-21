@@ -33,4 +33,15 @@ export const Products = [
     rating: 3,
     reviews: 1,
   },
+  {
+    id: 4,
+    name: "Ergonomic Paper Clock.",
+    priceIcon: "$",
+    price: 100,
+    originalPrice: 100,
+    images:
+      "https://demo2.themelexus.com/ziggy/wp-content/uploads/2022/05/product-6-1-350x350.jpg",
+    rating: 5,
+    reviews: 4,
+  },
 ];

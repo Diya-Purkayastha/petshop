@@ -1,3 +1,4 @@
+import BestCategory from "@/components/share/BestCategory";
 import BestSellingProduct from "@/components/share/BestSellingProduct";
 import BrowseCategory from "@/components/share/BrowseCategory";
 import { Header } from "@/components/share/Header";
@@ -25,6 +26,9 @@ export default function Home() {
 
         {/* Browse catogory */}
         <BrowseCategory></BrowseCategory>
+
+        {/* best category */}
+        <BestCategory></BestCategory>
       </main>
     </div>
   );
