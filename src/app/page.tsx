@@ -1,4 +1,5 @@
 import BestSellingProduct from "@/components/share/BestSellingProduct";
+import BrowseCategory from "@/components/share/BrowseCategory";
 import { Header } from "@/components/share/Header";
 import HeroSection from "@/components/share/HeroSection";
 import PromotionalBanner from "@/components/share/PromotionalBanner";
@@ -18,6 +19,12 @@ export default function Home() {
         <PromotionalBanner />
 
         {/* Categories sections */}
+
+         {/* Best Selling Products */}
+        <BestSellingProduct />
+
+        {/* Browse catogory */}
+        <BrowseCategory></BrowseCategory>
       </main>
     </div>
   );
