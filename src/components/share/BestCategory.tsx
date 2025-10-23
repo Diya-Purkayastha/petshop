@@ -2,7 +2,7 @@ import Link from "next/link";
 import { Card } from "../ui/card";
 import Image from "next/image";
 import { ShoppingCart, Star } from "lucide-react";
-import { Products } from "@/config/product";
+import { Products } from "@/config/bestproducts";
 import { Button } from "../ui/button";
 
 export default function BestCategory() {
